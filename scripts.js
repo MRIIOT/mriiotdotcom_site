@@ -61,7 +61,12 @@
     if (typeof e.origin === 'string' && e.origin.indexOf('calendly.com') === -1) return;
     var data = e.data;
     if (data && typeof data === 'object' && data.event === 'calendly.page_height' && data.payload) {
-      widget.style.height = data.payload.height;
+      // Calendly sometimes posts a spurious tiny height (e.g. "2px") before the
+      // booking UI has laid out. Applying it collapses the embed to a blank
+      // sliver, so ignore implausible values and keep the inline default height
+      // as the fallback; real heights (~800-1100px) still hug the content.
+      var h = parseInt(data.payload.height, 10);
+      if (h > 300) { widget.style.height = h + 'px'; }
     }
   });
 })();
