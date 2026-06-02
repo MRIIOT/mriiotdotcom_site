@@ -479,6 +479,16 @@ section[id] { scroll-margin-top: 84px; }
 .calendly-inline-widget { border: 1px solid var(--line); border-radius: var(--radius);
   overflow: hidden; background: var(--card); box-shadow: 0 18px 44px -26px rgba(20,24,29,.4); }
 
+/* Documentation & downloads (SHARC) */
+.doc-list { list-style: none; padding: 0; margin: 1.8rem 0 0;
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.doc-list a { display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 1rem 1.25rem; background: var(--card); border: 1px solid var(--line);
+  border-radius: var(--radius); color: var(--ink); font-weight: 600; }
+.doc-list a:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+.doc-list a small { font-family: var(--font-mono); font-size: .72rem; color: var(--muted);
+  text-transform: uppercase; letter-spacing: .05em; white-space: nowrap; }
+
 /* Responsive */
 @media (max-width: 860px) {
   .hero, .step { grid-template-columns: 1fr; gap: 1.8rem; }
@@ -500,6 +510,7 @@ section[id] { scroll-margin-top: 84px; }
   /* Mobile header: keep only About in the nav; logo + About + CTA on one row */
   .bar { gap: .75rem; }
   .site-header nav a:not([href$="about.html"]) { display: none; }
+  .doc-list { grid-template-columns: 1fr; }
 }
 @media (max-width: 460px) {
   .flow-steps { grid-template-columns: 1fr; }
