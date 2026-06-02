@@ -497,7 +497,9 @@ section[id] { scroll-margin-top: 84px; }
   .cs-card figure img { min-height: 180px; }
   .cs-body { padding: 0 1.5rem 1.5rem; }
   .cs-info-grid { grid-template-columns: 1fr; }
-  .site-header nav { display: none; }
+  /* Mobile header: keep only About in the nav; logo + About + CTA on one row */
+  .bar { gap: .75rem; }
+  .site-header nav a:not([href$="about.html"]) { display: none; }
 }
 @media (max-width: 460px) {
   .flow-steps { grid-template-columns: 1fr; }
