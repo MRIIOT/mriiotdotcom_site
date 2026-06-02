@@ -507,9 +507,14 @@ section[id] { scroll-margin-top: 84px; }
   .cs-card figure img { min-height: 180px; }
   .cs-body { padding: 0 1.5rem 1.5rem; }
   .cs-info-grid { grid-template-columns: 1fr; }
-  /* Mobile header: keep only About in the nav; logo + About + CTA on one row */
+  /* Mobile header: show Case Studies + About (hide Media); CTA becomes a calendar icon */
   .bar { gap: .75rem; }
-  .site-header nav a:not([href$="about.html"]) { display: none; }
+  .site-header nav a[href$="media.html"] { display: none; }
+  .site-header .btn {
+    font-size: 0; padding: 0; width: 40px; height: 34px; margin-left: .4rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='18' rx='2'/%3E%3Cline x1='3' y1='9' x2='21' y2='9'/%3E%3Cline x1='8' y1='2' x2='8' y2='6'/%3E%3Cline x1='16' y1='2' x2='16' y2='6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: center; background-size: 18px 18px;
+  }
   .doc-list { grid-template-columns: 1fr; }
 }
 @media (max-width: 460px) {
