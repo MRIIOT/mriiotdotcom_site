@@ -1,0 +1,57 @@
+# Mr. IIoT
+
+> Industrial IoT and systems engineering for manufacturers who want to grow
+> without growing headcount. Mr. IIoT connects machines, integrates software, and
+> automates the busywork — and gives owners real-time visibility into uptime,
+> utilization, and cost — so the team you already have can do more. "The last mile
+> of your factory network and the first mile of your information network." Audience:
+> manufacturing business owners and operators facing growing pains who want to do
+> more with fewer people. Founded and led by Chris Misztur (President & Founder),
+> Greater Chicago Area, 25+ years in industrial IoT and Industry 4.0.
+
+The site tells one story in five steps: connectivity → data collection →
+integration → analytics → support.
+
+## The five steps
+
+- [Connectivity](index.html#connectivity): Two complementary paths. (1) SHARC — the universal IoT sensor adapter connects any digital or analog industrial sensor, from any manufacturer, to any network; powers the sensor and publishes over MQTT; works as a one-way data diode for secure/classified environments. (2) DIME (Data In Motion Enterprise, datainmotionenterprise.com) — the universal translator for industrial data; an edge connector speaks 50+ native industrial protocols (Fanuc, Yaskawa, Haas, Siemens S7, Modbus, OPC-UA, MTConnect, EtherNet/IP, and more), turning PLCs, robots, CNCs, databases, and brokers into one unified stream with sub-millisecond latency and zero custom code.
+- [Data Collection](index.html#collection): Real-time capture of sensor readings and equipment event changes as open payloads (JSON over MQTT). The customer owns their machine data — no proprietary lock-in at the source.
+- [Integration](index.html#integration): Two complementary tools. (1) DIME — DataOps engine that normalizes, transforms, and routes the unified stream to 16+ destinations (OPC-UA, SparkplugB, Splunk, MongoDB, Websocket, and more); standards-based (MTConnect, OPC-UA, SparkplugB). (2) i3X (Industrial Information Interoperability Exchange, i3x.net) — turns disparate sources (SQL databases, MTConnect, OPC-UA, CSV/Excel) into standardized, queryable i3X-compliant REST APIs with semantic models and no custom code; auto schema discovery, one-click mapping, multi-server aggregation, AI-powered search, and MCP integration.
+- [Analytics](index.html#analytics): Real-time monitoring, custom dashboards, predictive maintenance, and advanced reporting. Scalable machine data collection with no vendor lock-in.
+- [Support](index.html#support): Tracebook (tracebook.ai) — AI tech support for machine OEMs. Turns manuals, schematics, and resolved tickets into a searchable, cited knowledge base that answers diagnostic questions in seconds. White-label under the OEM's brand, per-machine-serial knowledge bases, multi-modal input (text/photo/video), closed-loop ticket escalation.
+
+## Pages
+
+- [Home](index.html): The four-step story, customer pain points, and proof.
+- [SHARC](sharc.html): Product deep dive — features, the "measure anything" sensor gallery (throughput, pressure, temperature, current, vibration, flow, level, PLC tap, and more), open-platform ingestion (JSON/MQTT), and security (one-way data diode).
+- [DIME](dime.html): Product page for Data In Motion Enterprise — 50+ protocols, sub-millisecond latency, zero custom code, the Connector/Horizons/Zenith three-tier architecture, and AI-from-documentation setup. Links to datainmotionenterprise.com.
+- [i3X](i3x.html): Product page for the Industrial Information Interoperability Exchange — standardized queryable REST APIs, semantic models, and the suite (i3xdb, i3xmt, i3xcsv, i3xopc, i3xview, i3xdash, i3xrag, i3X Explorer). Links to i3x.net.
+- [Tracebook](tracebook.html): Product page for AI tech support for machine OEMs — cited answers, multi-modal input, per-machine knowledge bases, white-label, closed-loop escalation. Links to tracebook.ai.
+- [Case Studies](case-studies.html): Summary listing — six real, named engagements plus three representative (illustrative, non-attributed) scenarios — each linking to a full write-up:
+  - [Aerospace IT/OT Connectivity](case-aerospace-it-ot.html): connected hundreds of assets to a worldwide aerospace firm's OT network.
+  - [Digital Transformation](case-digital-transformation.html): open-source FANUC data collector for a global fluid-systems manufacturer.
+  - [Machine Monitoring](case-machine-monitoring.html): Ox Box — SHARC sensors + Grafana for real-time uptime/productivity (and COVID safety scanners).
+  - [Compliance & Traceability](case-compliance-traceability.html): nationwide bakery — custom SSCC system + SHARC for FDA traceability.
+  - [Middleware Solutions](case-middleware-solutions.html): Chicago Coding Systems — custom middleware for real-time scan-print-apply labeling.
+  - [Order Processing](case-order-processing.html): Tempco — automated EDI between SPS Commerce and ERP.
+  - [Free Your Engineers](case-tracebook-support.html): representative scenario — Tracebook AI support answers repetitive customer questions so engineers get back to product work.
+  - [More Jobs, Same Crew](case-shop-visibility.html): representative scenario — SHARC machine monitoring reveals real capacity so a shop runs more work without hiring.
+  - [Orders In, Hands Off](case-back-office-automation.html): representative scenario — DIME/i3X integration automates order entry so the back office scales without headcount.
+- [Media](media.html): Video demos and setups (SHARC, DIME, Fanuc-Driver with MTConnect/SparkplugB/InfluxDB).
+- [About](about.html): Mission, services, product, and founder Chris Misztur.
+
+## Products
+
+- SHARC: Universal IoT sensor adapter. Connects any sensor to any network; publishes telemetry over MQTT/JSON. (Connectivity)
+- DIME (datainmotionenterprise.com): Universal translator for industrial data; 50+ protocols in, normalized and routed anywhere. (Connectivity + Integration)
+- i3X (i3x.net): Industrial Information Interoperability Exchange; turns any data source into standardized, queryable REST APIs with semantic models. (Integration)
+- Tracebook (tracebook.ai): AI tech support for machine OEMs; transforms manuals, schematics, and resolved tickets into a searchable knowledge base that answers diagnostic questions with cited sources. White-label, per-machine knowledge bases, sub-45-second responses. (After-sale support)
+
+## Contact
+
+- Email: chris@mriiot.com
+- Website: https://mriiot.com
+- Schedule a consultation: https://calendly.com/cmisztur-mriiot/30min
+- YouTube: https://www.youtube.com/@MrIIoT
+- GitHub: https://github.com/MrIIoT
+- LinkedIn: https://linkedin.com/in/chrismisztur
