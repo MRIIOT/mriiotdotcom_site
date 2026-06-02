@@ -49,3 +49,19 @@
     });
   });
 })();
+
+/* Size the inline Calendly embed to its actual content height. The embed ships
+   with a fixed height that's taller than the booking UI, leaving dead white
+   space below it (worst on mobile). Calendly posts its real page height as it
+   renders — track it so the bordered card hugs the content. */
+(function () {
+  var widget = document.querySelector('.calendly-inline-widget');
+  if (!widget) return;
+  window.addEventListener('message', function (e) {
+    if (typeof e.origin === 'string' && e.origin.indexOf('calendly.com') === -1) return;
+    var data = e.data;
+    if (data && typeof data === 'object' && data.event === 'calendly.page_height' && data.payload) {
+      widget.style.height = data.payload.height;
+    }
+  });
+})();

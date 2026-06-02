@@ -27,7 +27,7 @@ integration → analytics → support.
 - [DIME](dime.html): Product page for Data In Motion Enterprise — 50+ protocols, sub-millisecond latency, zero custom code, the Connector/Horizons/Zenith three-tier architecture, and AI-from-documentation setup. Links to datainmotionenterprise.com.
 - [i3X](i3x.html): Product page for the Industrial Information Interoperability Exchange — standardized queryable REST APIs, semantic models, and the suite (i3xdb, i3xmt, i3xcsv, i3xopc, i3xview, i3xdash, i3xrag, i3X Explorer). Links to i3x.net.
 - [Tracebook](tracebook.html): Product page for AI tech support for machine OEMs — cited answers, multi-modal input, per-machine knowledge bases, white-label, closed-loop escalation. Links to tracebook.ai.
-- [Case Studies](case-studies.html): Summary listing — six real, named engagements plus three representative (illustrative, non-attributed) scenarios — each linking to a full write-up:
+- [Case Studies](case-studies.html): Summary listing — six real, named engagements plus one representative (illustrative, non-attributed) scenario — each linking to a full write-up:
   - [Aerospace IT/OT Connectivity](case-aerospace-it-ot.html): connected hundreds of assets to a worldwide aerospace firm's OT network.
   - [Digital Transformation](case-digital-transformation.html): open-source FANUC data collector for a global fluid-systems manufacturer.
   - [Machine Monitoring](case-machine-monitoring.html): Ox Box — SHARC sensors + Grafana for real-time uptime/productivity (and COVID safety scanners).
@@ -35,8 +35,6 @@ integration → analytics → support.
   - [Middleware Solutions](case-middleware-solutions.html): Chicago Coding Systems — custom middleware for real-time scan-print-apply labeling.
   - [Order Processing](case-order-processing.html): Tempco — automated EDI between SPS Commerce and ERP.
   - [Free Your Engineers](case-tracebook-support.html): representative scenario — Tracebook AI support answers repetitive customer questions so engineers get back to product work.
-  - [More Jobs, Same Crew](case-shop-visibility.html): representative scenario — SHARC machine monitoring reveals real capacity so a shop runs more work without hiring.
-  - [Orders In, Hands Off](case-back-office-automation.html): representative scenario — DIME/i3X integration automates order entry so the back office scales without headcount.
 - [Media](media.html): Video demos and setups (SHARC, DIME, Fanuc-Driver with MTConnect/SparkplugB/InfluxDB).
 - [About](about.html): Mission, services, product, and founder Chris Misztur.
 
