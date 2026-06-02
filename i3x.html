@@ -87,6 +87,57 @@
     <p class="measure-note">Explore the whole suite at <a href="https://i3x.net" rel="noopener">i3x.net &rarr;</a></p>
   </section>
 
+  <section id="faq" class="wrap faq">
+    <p class="section-kicker">FAQ</p>
+    <h2 class="section-title">i3X, answered.</h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>What is i3X?</summary>
+        <p>i3X (Industrial Information Interoperability Exchange) turns disparate data sources &mdash; SQL databases, MTConnect devices, OPC-UA, and CSV/Excel files &mdash; into standardized, queryable REST APIs with semantic context models, so any application can simply ask for the data it needs.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Which data sources does i3X support?</summary>
+        <p>Relational databases (MSSQL, PostgreSQL, MySQL, SQLite, Snowflake, DB2), MTConnect devices via MQTT, and CSV/Excel files with auto-detected cross-file relationships. You can also aggregate multiple i3X servers into one endpoint, and an OPC-UA bridge (i3xopc) is on the way.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Do I have to write integration code?</summary>
+        <p>No. i3X performs automatic schema discovery &mdash; introspecting tables, columns, keys, and constraints &mdash; with one-click auto-mapping and a visual canvas. Foreign keys become composition hierarchies, and columns become queryable attributes with live values, quality, and timestamps.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What&rsquo;s in the i3X suite?</summary>
+        <p>GUI tools &mdash; i3xdb (SQL mapper), i3xmt (MTConnect), i3xcsv (flat files), i3xview (node-graph visualizer), i3xdash (live dashboards), and i3X Explorer &mdash; plus headless Docker/CLI servers for each, and i3xrag, an MCP server for AI.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Can AI agents use i3X?</summary>
+        <p>Yes. i3xrag is an MCP server that lets AI agents run full-text (BM25) search, traverse the data graph, find paths, and analyze the model. It works with Claude Desktop and other compatible clients.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How is i3X deployed and configured?</summary>
+        <p>Flexibly: embedded servers inside the desktop apps, standalone headless CLI servers for Docker and CI pipelines, and browser-based viewers. Configuration is YAML-based, so it version-controls cleanly.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Does it serve real-time data or just static schemas?</summary>
+        <p>Real-time. i3X serves live values with quality and timestamp metadata, and includes live dashboards with value, gauge, sparkline, and timeline tiles.</p>
+      </details>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What is i3X?", "acceptedAnswer": { "@type": "Answer", "text": "i3X (Industrial Information Interoperability Exchange) turns disparate data sources, such as SQL databases, MTConnect devices, OPC-UA, and CSV/Excel files, into standardized, queryable REST APIs with semantic context models, so any application can simply ask for the data it needs." } },
+      { "@type": "Question", "name": "Which data sources does i3X support?", "acceptedAnswer": { "@type": "Answer", "text": "Relational databases (MSSQL, PostgreSQL, MySQL, SQLite, Snowflake, DB2), MTConnect devices via MQTT, and CSV/Excel files with auto-detected cross-file relationships. You can also aggregate multiple i3X servers into one endpoint, and an OPC-UA bridge (i3xopc) is on the way." } },
+      { "@type": "Question", "name": "Do I have to write integration code?", "acceptedAnswer": { "@type": "Answer", "text": "No. i3X performs automatic schema discovery, introspecting tables, columns, keys, and constraints, with one-click auto-mapping and a visual canvas. Foreign keys become composition hierarchies, and columns become queryable attributes with live values, quality, and timestamps." } },
+      { "@type": "Question", "name": "What's in the i3X suite?", "acceptedAnswer": { "@type": "Answer", "text": "GUI tools (i3xdb for SQL, i3xmt for MTConnect, i3xcsv for flat files, i3xview for node-graph visualization, i3xdash for live dashboards, and i3X Explorer), plus headless Docker/CLI servers for each, and i3xrag, an MCP server for AI." } },
+      { "@type": "Question", "name": "Can AI agents use i3X?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. i3xrag is an MCP server that lets AI agents run full-text (BM25) search, traverse the data graph, find paths, and analyze the model. It works with Claude Desktop and other compatible clients." } },
+      { "@type": "Question", "name": "How is i3X deployed and configured?", "acceptedAnswer": { "@type": "Answer", "text": "Flexibly: embedded servers inside the desktop apps, standalone headless CLI servers for Docker and CI pipelines, and browser-based viewers. Configuration is YAML-based, so it version-controls cleanly." } },
+      { "@type": "Question", "name": "Does it serve real-time data or just static schemas?", "acceptedAnswer": { "@type": "Answer", "text": "Real-time. i3X serves live values with quality and timestamp metadata, and includes live dashboards with value, gauge, sparkline, and timeline tiles." } }
+    ]
+  }
+  </script>
+
   <section class="cta-band">
     <div class="wrap">
       <h2>Make your data ask-able.</h2>

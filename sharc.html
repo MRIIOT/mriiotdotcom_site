@@ -125,6 +125,85 @@
     </ul>
   </section>
 
+  <section id="faq" class="wrap faq">
+    <p class="section-kicker">FAQ</p>
+    <h2 class="section-title">SHARC, answered.</h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>What is the SHARC?</summary>
+        <p>The SHARC is a universal IoT sensor adapter. It powers an industrial sensor, captures its reading in real time, and publishes that telemetry over MQTT &mdash; so you can get any sensor onto your network without a custom integration.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What can a SHARC measure?</summary>
+        <p>Anything a digital or analog industrial sensor can sense: production throughput and part count, pressure, temperature, current, vibration, flow, fluid level, rotational speed, oil particle count, and label detection &mdash; among others. You can also tap an existing PLC output.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Which sensors and machines does it work with?</summary>
+        <p>Any digital or analog industrial sensor, from any manufacturer. You don&rsquo;t have to replace existing equipment &mdash; add a brand-new measurement or tap a machine you&rsquo;ve owned for years.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How does SHARC get data into my software?</summary>
+        <p>It publishes open JSON payloads over MQTT, so it drops into the tools you already use &mdash; Grafana, Ignition, Splunk, InfluxDB, IoTDB, Node-RED, and more &mdash; with direct ingestion via MTConnect, OPC-UA, and SparkplugB. There&rsquo;s no proprietary lock-in at the source.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Is SHARC secure enough for classified or high-security environments?</summary>
+        <p>Yes. SHARC can operate as a one-way data diode: readings flow out for monitoring, but nothing can flow back in. It introduces no new attack surface, which makes it safe even for classified environments.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How does the cost compare to an OEM connectivity quote?</summary>
+        <p>It&rsquo;s a fraction of a typical OEM quote. In one case, a customer&rsquo;s OEM connectivity quote was about ten times the cost of two SHARC units. For exact pricing on your setup, get in touch.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Do I need a software platform or deep technical expertise to use it?</summary>
+        <p>No. SHARC is built to be simple to set up and manage, with iPhone and desktop apps for your fleet. Because it uses open standards, you&rsquo;re never locked into one platform.</p>
+      </details>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the SHARC?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The SHARC is a universal IoT sensor adapter. It powers an industrial sensor, captures its reading in real time, and publishes that telemetry over MQTT, so you can get any sensor onto your network without a custom integration." }
+      },
+      {
+        "@type": "Question",
+        "name": "What can a SHARC measure?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Anything a digital or analog industrial sensor can sense: production throughput and part count, pressure, temperature, current, vibration, flow, fluid level, rotational speed, oil particle count, and label detection, among others. You can also tap an existing PLC output." }
+      },
+      {
+        "@type": "Question",
+        "name": "Which sensors and machines does it work with?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Any digital or analog industrial sensor, from any manufacturer. You do not have to replace existing equipment; add a brand-new measurement or tap a machine you have owned for years." }
+      },
+      {
+        "@type": "Question",
+        "name": "How does SHARC get data into my software?",
+        "acceptedAnswer": { "@type": "Answer", "text": "It publishes open JSON payloads over MQTT, so it drops into the tools you already use, such as Grafana, Ignition, Splunk, InfluxDB, IoTDB, and Node-RED, with direct ingestion via MTConnect, OPC-UA, and SparkplugB. There is no proprietary lock-in at the source." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is SHARC secure enough for classified or high-security environments?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. SHARC can operate as a one-way data diode: readings flow out for monitoring, but nothing can flow back in. It introduces no new attack surface, which makes it safe even for classified environments." }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the cost compare to an OEM connectivity quote?",
+        "acceptedAnswer": { "@type": "Answer", "text": "It is a fraction of a typical OEM quote. In one case, a customer's OEM connectivity quote was about ten times the cost of two SHARC units. For exact pricing on your setup, get in touch." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need a software platform or deep technical expertise to use it?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. SHARC is built to be simple to set up and manage, with iPhone and desktop apps for your fleet. Because it uses open standards, you are never locked into one platform." }
+      }
+    ]
+  }
+  </script>
+
   <section class="cta-band">
     <div class="wrap">
       <h2>Two SHARCs can answer the question an OEM quotes a fortune for.</h2>

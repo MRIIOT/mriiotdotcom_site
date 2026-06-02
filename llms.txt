@@ -64,6 +64,16 @@ Mr. IIoT serves manufacturers and machine OEMs facing growing pains — across a
 - i3X (i3x.net): Industrial Information Interoperability Exchange; turns any data source into standardized, queryable REST APIs with semantic models. (Integration)
 - Tracebook (tracebook.ai): AI tech support for machine OEMs; transforms manuals, schematics, and resolved tickets into a searchable knowledge base that answers diagnostic questions with cited sources. White-label, per-machine knowledge bases, sub-45-second responses. (After-sale support)
 
+## FAQs
+
+Each product page and the homepage include an FAQ section (with FAQPage structured data):
+
+- [Home FAQ](index.html#faq): what Mr. IIoT does, existing-equipment compatibility, the four products, data ownership, time to results, industries, getting started.
+- [SHARC FAQ](sharc.html#faq): what SHARC is, what it measures, sensor/machine compatibility, data delivery (JSON/MQTT), security data diode, cost vs OEM, ease of use.
+- [DIME FAQ](dime.html#faq): what DIME is, supported protocols/devices, destinations, Connector/Horizon/Zenith architecture, latency, AI configuration, time to value.
+- [i3X FAQ](i3x.html#faq): what i3X is, supported data sources, no-code schema discovery, the suite, MCP/AI access, deployment, real-time values.
+- [Tracebook FAQ](tracebook.html#faq): what Tracebook is, who it's for, cited answers, multi-modal input, white-labeling, closed-loop tickets, single-tenant data isolation, setup time.
+
 ## Contact
 
 - Email: chris@mriiot.com
